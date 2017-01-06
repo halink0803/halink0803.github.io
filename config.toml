@@ -1,9 +1,9 @@
-baseurl = "https://halink0803.github.io/hugo-site/"
+baseurl = "https://halink0803.github.io"
 languageCode = "vi-vn"
 title = "Ha Link's Space"
 theme = "casper"
 DisqusShortname = "halink-space"
-publishDir = "docs"
+publishDir = "./"
 canonifyurls = true
 paginate = 5
 
