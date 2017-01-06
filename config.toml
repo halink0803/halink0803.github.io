@@ -1,0 +1,34 @@
+baseurl = "https://halink0803.github.io/hugo-site/"
+languageCode = "vi-vn"
+title = "Ha Link's Space"
+theme = "casper"
+DisqusShortname = "halink-space"
+publishDir = "docs"
+canonifyurls = true
+paginate = 5
+
+
+[[menu.main]]
+	identifier = "blog"
+	name 	= "Home"
+	url 	= "/"
+	weight	= "-120"
+
+[[menu.main]]
+	identifier 	= "about"
+	name	= "About"
+	url		= "/about"
+	weight	= "-110"
+
+[params]
+	cover = "images/cover.jpg"
+	logo = "images/logo.png"
+	author = "Ha Link"
+	authorlocation = "Hanoi, Vietnam"
+	authorwebsite = "http://halink.space"
+	googleAnalyticsUserID = "UA-85056815-1"
+	githubName = "halink0803"
+	# twitterName = "halink0803"
+	facebookName = "halink0803"
+	linkedinName = "halink0803"
+

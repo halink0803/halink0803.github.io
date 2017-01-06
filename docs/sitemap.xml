@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://halink0803.github.io/hugo-site/</loc>
+    <lastmod>2016-10-01T10:34:49+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/hugo-site/post/hello-world/</loc>
+    <lastmod>2016-10-01T10:34:49+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/hugo-site/about/</loc>
+    <lastmod>2016-10-01T10:30:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/hugo-site/about/about/</loc>
+    <lastmod>2016-10-01T10:30:08+07:00</lastmod>
+  </url>
+  
+</urlset>
