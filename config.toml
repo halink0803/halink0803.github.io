@@ -20,6 +20,12 @@ paginate = 5
 	url		= "/about"
 	weight	= "-110"
 
+[[menu.main]]
+	identifier = "100-days-of-code"
+	name 	= "100 days of code"
+	url		= "/100-days-of-code"
+	weight 	= "-100"
+
 [params]
 	cover = "images/cover.jpg"
 	logo = "images/logo.png"
