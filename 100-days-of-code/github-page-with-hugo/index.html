@@ -154,7 +154,19 @@
 
 <p>Since there is another tutorial about this on Hugo official documentation <a href="https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages">site</a>, it is a little bit complicated and outdated cos recently github alows github page to generate site from &ldquo;docs&rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.toml file.</p>
 
-<p>With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like <em><a href="https://your-github-username.github.io">https://your-github-username.github.io</a></em> or <em><a href="https://your-organization-name.github.io">https://your-organization-name.github.io</a></em> and the second type is git repository page, this page usually for repository documentation and has the url structure like <em><a href="https://your-github-user-name.github.io/the-git-repository-slug">https://your-github-user-name.github.io/the-git-repository-slug</a></em> or <em><a href="https://your-organization-name.github.io/the-git-repository-slug">https://your-organization-name.github.io/the-git-repository-slug</a></em></p>
+<p>With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like <em><a href="https://your-github-username.github.io">https://your-github-username.github.io</a></em> or <em><a href="https://your-organization-name.github.io">https://your-organization-name.github.io</a></em> and the second type is git repository page, this page usually for repository documentation and has the url structure like <em><a href="https://your-github-user-name.github.io/the-git-repository-slug">https://your-github-user-name.github.io/the-git-repository-slug</a></em> or <em><a href="https://your-organization-name.github.io/the-git-repository-slug">https://your-organization-name.github.io/the-git-repository-slug</a></em>.</p>
+
+<p>The different between two types of site above is not only the url structure but more important is the source folder which Github used for build the site. The first types of site, Github only allow you to render from master branch, you need to put your hugo render (puslish code) into the master branch, so there is only one thing you need to do here is modify the config.toml and point the publish folder to your master branch of your git repository so here is my config.toml:</p>
+
+<pre><code class="language-toml">	pushlishDir = './'
+</code></pre>
+
+<p>The second type of github page, you can either build the site from master branch or docs folder of your master branch, I prefer having a docs folder where I can store all the documetation for that project, then the config should be:</p>
+
+<pre><code class="language-toml">	publishDir = './docs'
+</code></pre>
+
+<p>publishDir option tells Hugo where the site should be generate, then all you need is to run hugo, commit and push it to github. Remember to go to repository settings and activate the github page option, the your site is ready to online.</p>
 
     </section>
 
