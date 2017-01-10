@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page on Ha Link&#39;s Space</title>
+    <link>https://halink0803.github.io/tags/page/index.xml</link>
+    <description>Recent content in Page on Ha Link&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <atom:link href="https://halink0803.github.io/tags/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 1 - Github page with Hugo</title>
+      <link>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</link>
+      <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
+      
+      <guid>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</guid>
+      <description>&lt;p&gt;This is my first post for #100DaysOfCode from &lt;a href=&#34;https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b#.c5xcsjeiy&#34;&gt;Boot Up 2017 with the #100DaysOfCode Challenge&lt;/a&gt;. Maybe I start quite late for the challenge but better late than never.&lt;/p&gt;
+
+&lt;p&gt;Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it &lt;a href=&#34;http://halink.space&#34;&gt;halink.space&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since there is another tutorial about this on Hugo official documentation &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages&#34;&gt;site&lt;/a&gt;, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.toml file.&lt;/p&gt;
+
+&lt;p&gt;With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like &lt;em&gt;&lt;a href=&#34;https://your-github-username.github.io&#34;&gt;https://your-github-username.github.io&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&#34;https://your-organization-name.github.io&#34;&gt;https://your-organization-name.github.io&lt;/a&gt;&lt;/em&gt; and the second type is git repository page, this page usually for repository documentation and has the url structure like &lt;em&gt;&lt;a href=&#34;https://your-github-user-name.github.io/the-git-repository-slug&#34;&gt;https://your-github-user-name.github.io/the-git-repository-slug&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&#34;https://your-organization-name.github.io/the-git-repository-slug&#34;&gt;https://your-organization-name.github.io/the-git-repository-slug&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 1 - Github page with Hugo</title>
+      <link>https://halink0803.github.io/post/github-page-with-hugo/</link>
+      <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
+      
+      <guid>https://halink0803.github.io/post/github-page-with-hugo/</guid>
+      <description>&lt;p&gt;This is my first post for #100DaysOfCode from &lt;a href=&#34;https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b#.c5xcsjeiy&#34;&gt;Boot Up 2017 with the #100DaysOfCode Challenge&lt;/a&gt;. Maybe I start quite late for the challenge but better late than never.&lt;/p&gt;
+
+&lt;p&gt;Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it &lt;a href=&#34;http://halink.space&#34;&gt;halink.space&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since there is another tutorial about this on Hugo official documentation &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages&#34;&gt;site&lt;/a&gt;, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.toml file.&lt;/p&gt;
+
+&lt;p&gt;With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like &lt;em&gt;&lt;a href=&#34;https://your-github-username.github.io&#34;&gt;https://your-github-username.github.io&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&#34;https://your-organization-name.github.io&#34;&gt;https://your-organization-name.github.io&lt;/a&gt;&lt;/em&gt; and the second type is git repository page, this page usually for repository documentation and has the url structure like &lt;em&gt;&lt;a href=&#34;https://your-github-user-name.github.io/the-git-repository-slug&#34;&gt;https://your-github-user-name.github.io/the-git-repository-slug&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&#34;https://your-organization-name.github.io/the-git-repository-slug&#34;&gt;https://your-organization-name.github.io/the-git-repository-slug&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
