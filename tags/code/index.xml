@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Ha Link&#39;s Space</title>
-    <link>https://halink0803.github.io/tags/code/</link>
+    <link>https://halink0803.github.io/tags/code/index.xml</link>
     <description>Recent content in Code on Ha Link&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi-vn</language>
-    <lastBuildDate>Mon, 09 Jan 2017 10:02:07 +0800</lastBuildDate>
     <atom:link href="https://halink0803.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,7 +14,7 @@
       <pubDate>Mon, 09 Jan 2017 10:02:07 +0800</pubDate>
       
       <guid>https://halink0803.github.io/100-days-of-code/</guid>
-      <description>&lt;p&gt;#100 days of code challenge&lt;/p&gt;
+      <description>&lt;p&gt;##100 days of code challenge&lt;/p&gt;
 </description>
     </item>
     
