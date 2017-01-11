@@ -6,6 +6,7 @@ DisqusShortname = "halink-space"
 publishDir = "./"
 canonifyurls = true
 paginate = 5
+RSSLink = "http://eepurl.com/cw3xgj"
 
 
 [[menu.main]]
@@ -37,4 +38,5 @@ paginate = 5
 	# twitterName = "halink0803"
 	facebookName = "halink0803"
 	linkedinName = "halink0803"
+	RSSLink = "http://eepurl.com/cw3xgj"
 

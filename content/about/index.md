@@ -6,7 +6,7 @@ draft = false
 image = ""
 menu = ""
 share = true
-slug = "index"
+slug = "hi"
 title = "About"
 type = "page"
 
