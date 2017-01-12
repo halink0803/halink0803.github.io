@@ -15,7 +15,9 @@
       <pubDate>Sat, 01 Oct 2016 10:30:08 +0700</pubDate>
       
       <guid>https://halink0803.github.io/about/hi/</guid>
-      <description>&lt;p&gt;This is my blog. This site was generated using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;http://themes.gohugo.io/casper/&#34;&gt;Casper&lt;/a&gt; theme. The domain name was bought from &lt;a href=&#34;http://radix.website/&#34;&gt;Radix&lt;/a&gt; and host on free server from &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;AWS&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;This is my blog. This site was generated using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;http://themes.gohugo.io/casper/&#34;&gt;Casper&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;!-- The domain name was bought from [Radix](http://radix.website/) and host on free server from [AWS](https://aws.amazon.com/) --&gt;
 </description>
     </item>
     
