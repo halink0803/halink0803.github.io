@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on Ha Link&#39;s Space</title>
+    <link>https://halink0803.github.io/tags/search/index.xml</link>
+    <description>Recent content in Search on Ha Link&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <atom:link href="https://halink0803.github.io/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 3 - Hugo search with lunr and gulp</title>
+      <link>https://halink0803.github.io/post/day-3-search-lunr-gulp/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>https://halink0803.github.io/post/day-3-search-lunr-gulp/</guid>
+      <description>&lt;p&gt;Today I will apply javascript dynamic search into this blog using lunr.js - a library allow us to do that. This is base on a tutorial from Hugo official documentation - &lt;a href=&#34;https://gist.github.com/sebz/efddfc8fdcb6b480f567&#34;&gt;hugo + gruntjs + lunrjs = &amp;lt;3 search&lt;/a&gt;. However, I will modify it to use Gulp instead of Grunt, simply is that I love Gulp more than Grunt :))&lt;/p&gt;
+
+&lt;p&gt;Here is the detail:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,10 +10,10 @@
     
     <item>
       <title>Day 1 - Github page with Hugo</title>
-      <link>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</link>
+      <link>https://halink0803.github.io/post/github-page-with-hugo/</link>
       <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
       
-      <guid>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</guid>
+      <guid>https://halink0803.github.io/post/github-page-with-hugo/</guid>
       <description>&lt;p&gt;This is my first post for #100DaysOfCode from &lt;a href=&#34;https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b#.c5xcsjeiy&#34;&gt;Boot Up 2017 with the #100DaysOfCode Challenge&lt;/a&gt;. Maybe I start quite late for the challenge but better late than never.&lt;/p&gt;
 
 &lt;p&gt;Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it &lt;a href=&#34;http://halink.space&#34;&gt;halink.space&lt;/a&gt;.&lt;/p&gt;

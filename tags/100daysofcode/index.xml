@@ -10,10 +10,10 @@
     
     <item>
       <title>Day 1 - Github page with Hugo</title>
-      <link>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</link>
+      <link>https://halink0803.github.io/post/github-page-with-hugo/</link>
       <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
       
-      <guid>https://halink0803.github.io/100-days-of-code/github-page-with-hugo/</guid>
+      <guid>https://halink0803.github.io/post/github-page-with-hugo/</guid>
       <description>&lt;p&gt;This is my first post for #100DaysOfCode from &lt;a href=&#34;https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b#.c5xcsjeiy&#34;&gt;Boot Up 2017 with the #100DaysOfCode Challenge&lt;/a&gt;. Maybe I start quite late for the challenge but better late than never.&lt;/p&gt;
 
 &lt;p&gt;Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it &lt;a href=&#34;http://halink.space&#34;&gt;halink.space&lt;/a&gt;.&lt;/p&gt;
@@ -33,6 +33,28 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;publishDir option tells Hugo where the site should be generate, then all you need is to run hugo, commit and push it to github. Remember to go to repository settings and activate the github page option, the your site is ready to online.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>100 days of code challenge</title>
+      <link>https://halink0803.github.io/100-days-of-code/challenge-accepted/</link>
+      <pubDate>Mon, 09 Jan 2017 10:02:07 +0800</pubDate>
+      
+      <guid>https://halink0803.github.io/100-days-of-code/challenge-accepted/</guid>
+      <description>&lt;p&gt;This post is only for announcing that I accept 100 days of code challenge. Nothing much, I will try my best, somehow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Day 3 - Hugo search with lunr and gulp</title>
+      <link>https://halink0803.github.io/post/day-3-search-lunr-gulp/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>https://halink0803.github.io/post/day-3-search-lunr-gulp/</guid>
+      <description>&lt;p&gt;Today I will apply javascript dynamic search into this blog using lunr.js - a library allow us to do that. This is base on a tutorial from Hugo official documentation - &lt;a href=&#34;https://gist.github.com/sebz/efddfc8fdcb6b480f567&#34;&gt;hugo + gruntjs + lunrjs = &amp;lt;3 search&lt;/a&gt;. However, I will modify it to use Gulp instead of Grunt, simply is that I love Gulp more than Grunt :))&lt;/p&gt;
+
+&lt;p&gt;Here is the detail:&lt;/p&gt;
 </description>
     </item>
     

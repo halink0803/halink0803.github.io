@@ -43,10 +43,7 @@
 
 
     
-      
-          <link href="https://halink0803.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Ha Link&#39;s Space" />
-      
-      
+        <link href="http://eepurl.com/cw3xgj" rel="alternate" type="application/rss+xml" title="Ha Link&#39;s Space" />
     
     <meta name="generator" content="Hugo 0.18.1" />
 
@@ -90,13 +87,18 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://halink0803.github.io/100-days-of-code">100 days of code</a>
+            	<a href="https://halink0803.github.io/tags/100daysofcode">100 days of code</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://halink0803.github.io/search">Search</a>
             </li>
         
     </ul>
     
     
-    <a class="subscribe-button icon-feed" href="https://halink0803.github.io/index.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="http://eepurl.com/cw3xgj">Subscribe</a> </div>
     
 </div>
 <span class="nav-cover"></span>
@@ -107,8 +109,10 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(https://halink0803.github.io/images/DSC00170.JPG)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -158,7 +162,19 @@
 
 <p>Since there is another tutorial about this on Hugo official documentation <a href="https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages">site</a>, it is a little bit complicated and outdated cos recently github alows github page to generate site from &ldquo;docs&rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.toml file.</p>
 
-<p>With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like <em><a href="https://your-github-username.github.io">https://your-github-username.github.io</a></em> or <em><a href="https://your-organization-name.github.io">https://your-organization-name.github.io</a></em> and the second type is git repository page, this page usually for repository documentation and has the url structure like <em><a href="https://your-github-user-name.github.io/the-git-repository-slug">https://your-github-user-name.github.io/the-git-repository-slug</a></em> or <em><a href="https://your-organization-name.github.io/the-git-repository-slug">https://your-organization-name.github.io/the-git-repository-slug</a></em></p>
+<p>With gihub page there are two types of site you can generate, first one is personal/organization page which has the url structure like <em><a href="https://your-github-username.github.io">https://your-github-username.github.io</a></em> or <em><a href="https://your-organization-name.github.io">https://your-organization-name.github.io</a></em> and the second type is git repository page, this page usually for repository documentation and has the url structure like <em><a href="https://your-github-user-name.github.io/the-git-repository-slug">https://your-github-user-name.github.io/the-git-repository-slug</a></em> or <em><a href="https://your-organization-name.github.io/the-git-repository-slug">https://your-organization-name.github.io/the-git-repository-slug</a></em>.</p>
+
+<p>The different between two types of site above is not only the url structure but more important is the source folder which Github used for build the site. The first types of site, Github only allow you to render from master branch, you need to put your hugo render (puslish code) into the master branch, so there is only one thing you need to do here is modify the config.toml and point the publish folder to your master branch of your git repository so here is my config.toml:</p>
+
+<pre><code class="language-toml">	pushlishDir = './'
+</code></pre>
+
+<p>The second type of github page, you can either build the site from master branch or docs folder of your master branch, I prefer having a docs folder where I can store all the documetation for that project, then the config should be:</p>
+
+<pre><code class="language-toml">	publishDir = './docs'
+</code></pre>
+
+<p>publishDir option tells Hugo where the site should be generate, then all you need is to run hugo, commit and push it to github. Remember to go to repository settings and activate the github page option, the your site is ready to online.</p>
 
     </section>
 
@@ -234,6 +250,27 @@
 </article>
 
 </main>
+
+
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+     
+</style>
+<div id="mc_embed_signup">
+<form action="//github.us9.list-manage.com/subscribe/post?u=409e5414b5d78a630866946c6&amp;id=63b073bdad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_409e5414b5d78a630866946c6_63b073bdad" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+
+
     <footer class="site-footer clearfix">
         <section class="copyright"><a href="">Ha Link&#39;s Space</a> </section>
         
@@ -244,7 +281,108 @@
     <script type="text/javascript" src="https://halink0803.github.io/js/jquery.js"></script>
     <script type="text/javascript" src="https://halink0803.github.io/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="https://halink0803.github.io/js/index.js"></script>
+    <script type="text/javascript" src="https://halink0803.github.io/js/vendor/lunr.min.js"></script>
     
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us9.list-manage.com","uuid":"409e5414b5d78a630866946c6","lid":"63b073bdad"}) })</script>
+
+    <script type="text/javascript">
+    var lunrIndex,
+        $results,
+        pagesIndex;
+
+    
+    function initLunr() {
+        
+        indexFile = 'https:\/\/halink0803.github.io\/js/lunr/PagesIndex.json';
+        $.getJSON(indexFile)
+            .done(function(index) {
+                pagesIndex = index;
+                console.log("index:", pagesIndex);
+
+                
+                
+                lunrIndex = lunr(function() {
+                    this.field("title", {
+                        boost: 10
+                    });
+                    this.field("tags", {
+                        boost: 5
+                    });
+                    this.field("content");
+
+                    
+                    this.ref("href");
+                });
+
+                
+                pagesIndex.forEach(function(page) {
+                    lunrIndex.add(page);
+                });
+            })
+            .fail(function(jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.error("Error getting Hugo index flie:", err);
+            });
+    }
+
+    
+    function initUI() {
+        $results = $("#results");
+        $("#search").keyup(function() {
+            $results.empty();
+
+            
+            var query = $(this).val();
+            if (query.length < 2) {
+                return;
+            }
+
+            var results = search(query);
+
+            renderResults(results);
+        });
+    }
+
+    
+
+    function search(query) {
+        
+        
+        
+        
+        
+        return lunrIndex.search(query).map(function(result) {
+                return pagesIndex.filter(function(page) {
+                    return page.href === result.ref;
+                })[0];
+            });
+    }
+
+    
+
+    function renderResults(results) {
+        if (!results.length) {
+            return;
+        }
+
+        
+        results.slice(0, 10).forEach(function(result) {
+            var $result = $("<li>");
+            $result.append($("<a>", {
+                href: result.href,
+                text: "» " + result.title
+            }));
+            $results.append($result);
+        });
+    }
+
+    
+    initLunr();
+
+    $(document).ready(function() {
+        initUI();
+    });
+    </script>
 </body>
 </html>
 
