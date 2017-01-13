@@ -9,6 +9,71 @@
     <atom:link href="https://halink0803.github.io/tags/100daysofcode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Day 3 - Hugo search with lunr and gulp</title>
+      <link>https://halink0803.github.io/post/day-3-search-lunr-gulp/</link>
+      <pubDate>Wed, 11 Jan 2017 11:58:57 +0800</pubDate>
+      
+      <guid>https://halink0803.github.io/post/day-3-search-lunr-gulp/</guid>
+      <description>&lt;p&gt;Today I will apply javascript dynamic search into this blog using lunr.js - a library allow us to do that. This is base on a tutorial from Hugo official documentation - &lt;a href=&#34;https://gist.github.com/sebz/efddfc8fdcb6b480f567&#34;&gt;hugo + gruntjs + lunrjs = &amp;lt;3 search&lt;/a&gt;. However, I will modify it to use Gulp instead of Grunt, simply is that I love Gulp more than Grunt :))&lt;/p&gt;
+
+&lt;p&gt;Here is the detail:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirement&lt;/strong&gt;:&lt;br /&gt;
+    - A &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; site&lt;br /&gt;
+    - &lt;a href=&#34;http://lunrjs.com/&#34;&gt;lunrjs&lt;/a&gt; - for searching&lt;br /&gt;
+    - &lt;a href=&#34;http://gulpjs.com/&#34;&gt;gulp&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var gulp = require(&#39;gulp&#39;);
+var fs = require(&#39;fs&#39;);
+var glob = require(&#39;glob&#39;);
+var toml = require(&#39;toml&#39;);
+var S = require(&#39;string&#39;);
+var file = require(&#39;gulp-file&#39;);
+
+var path = {
+	&#39;content&#39; : &#39;site/content/**/*.md&#39;
+};
+
+var processMDFile = function() {
+	var indexFiles = [];
+	glob(path.content, function(err, files){
+		if(err) {
+			console.log(err);
+		} else {
+			files.forEach(function(file) {
+				var content = fs.readFileSync(file, &#39;utf8&#39;);
+				content = content.split(&#39;+++&#39;);
+				var frontMatter = toml.parse(content[1].trim());
+
+				// you might have different definition of permalink then change this
+				var href = frontMatter.slug;
+				if(frontMatter.type != null &amp;amp;&amp;amp; frontMatter.type == &#39;post&#39; ){
+					href = &#39;/post/&#39; + href;
+				}
+
+				//build lunr index
+				var index = {
+					title: frontMatter.title,
+	        href: href,
+	        content: S(content[2]).trim().stripTags().stripPunctuation().s
+				}
+				//console.log(index);
+				indexFiles.push(index);
+			});
+		}
+		//console.log(indexFiles);
+		file(&#39;PagesIndex.json&#39;, JSON.stringify(indexFiles), {src: true}).pipe(gulp.dest(&#39;./site/static/js/lunr/&#39;));
+	});
+};
+
+gulp.task(&amp;quot;lunr-index&amp;quot;, processMDFile());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The other part on how to use&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Day 1 - Github page with Hugo</title>
       <link>https://halink0803.github.io/post/github-page-with-hugo/</link>
       <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
@@ -38,23 +103,11 @@
     
     <item>
       <title>100 days of code challenge</title>
-      <link>https://halink0803.github.io/100-days-of-code/challenge-accepted/</link>
+      <link>https://halink0803.github.io/post/challenge-accepted/</link>
       <pubDate>Mon, 09 Jan 2017 10:02:07 +0800</pubDate>
       
-      <guid>https://halink0803.github.io/100-days-of-code/challenge-accepted/</guid>
+      <guid>https://halink0803.github.io/post/challenge-accepted/</guid>
       <description>&lt;p&gt;This post is only for announcing that I accept 100 days of code challenge. Nothing much, I will try my best, somehow.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Day 3 - Hugo search with lunr and gulp</title>
-      <link>https://halink0803.github.io/post/day-3-search-lunr-gulp/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>https://halink0803.github.io/post/day-3-search-lunr-gulp/</guid>
-      <description>&lt;p&gt;Today I will apply javascript dynamic search into this blog using lunr.js - a library allow us to do that. This is base on a tutorial from Hugo official documentation - &lt;a href=&#34;https://gist.github.com/sebz/efddfc8fdcb6b480f567&#34;&gt;hugo + gruntjs + lunrjs = &amp;lt;3 search&lt;/a&gt;. However, I will modify it to use Gulp instead of Grunt, simply is that I love Gulp more than Grunt :))&lt;/p&gt;
-
-&lt;p&gt;Here is the detail:&lt;/p&gt;
 </description>
     </item>
     

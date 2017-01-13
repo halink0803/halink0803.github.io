@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://halink0803.github.io/post/day-3-search-lunr-gulp/</loc>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://halink0803.github.io/post/github-page-with-hugo/</loc>
     <lastmod>2017-01-10T11:58:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/100-days-of-code/challenge-accepted/</loc>
+    <loc>https://halink0803.github.io/post/challenge-accepted/</loc>
     <lastmod>2017-01-09T10:02:07+08:00</lastmod>
   </url>
   
@@ -17,13 +22,8 @@
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/about/hi/</loc>
+    <loc>https://halink0803.github.io/about/</loc>
     <lastmod>2016-10-01T10:30:08+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/post/day-3-search-lunr-gulp/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
   
   <url>
@@ -32,20 +32,8 @@
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/100-days-of-code/</loc>
-    <lastmod>2017-01-09T10:02:07+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://halink0803.github.io/tags/100daysofcode/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/about/</loc>
-    <lastmod>2016-10-01T10:30:08+07:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,13 +57,13 @@
   
   <url>
     <loc>https://halink0803.github.io/tags/gulp/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://halink0803.github.io/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,7 +75,7 @@
   
   <url>
     <loc>https://halink0803.github.io/tags/lunr/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,13 +87,13 @@
   
   <url>
     <loc>https://halink0803.github.io/post/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://halink0803.github.io/tags/search/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
