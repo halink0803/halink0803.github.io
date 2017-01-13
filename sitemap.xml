@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://halink0803.github.io/post/day-4-add-multilanguage-with-hugo/</loc>
+    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://halink0803.github.io/post/day-3-search-lunr-gulp/</loc>
     <lastmod>2017-01-11T11:58:57+08:00</lastmod>
   </url>
@@ -33,7 +38,7 @@
   
   <url>
     <loc>https://halink0803.github.io/tags/100daysofcode/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,13 +68,13 @@
   
   <url>
     <loc>https://halink0803.github.io/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://halink0803.github.io/tags/hugo/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,7 +92,7 @@
   
   <url>
     <loc>https://halink0803.github.io/post/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
+    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
