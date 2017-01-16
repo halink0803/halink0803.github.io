@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ha Link&#39;s Space</title>
+    <link>https://halink0803.github.io/vi/index.xml</link>
+    <description>Recent content on Ha Link&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Jan 2016 10:30:08 +0700</lastBuildDate>
+    <atom:link href="https://halink0803.github.io/vi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://halink0803.github.io/vi/about/</link>
+      <pubDate>Sat, 16 Jan 2016 10:30:08 +0700</pubDate>
+      
+      <guid>https://halink0803.github.io/vi/about/</guid>
+      <description>&lt;p&gt;This is my blog. This site was generated using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and &lt;a href=&#34;http://themes.gohugo.io/casper/&#34;&gt;Casper&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;!-- The domain name was bought from [Radix](http://radix.website/) and host on free server from [AWS](https://aws.amazon.com/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tìm kiếm</title>
+      <link>https://halink0803.github.io/vi/search/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>https://halink0803.github.io/vi/search/</guid>
+      <description>&lt;p&gt;Keywords:
+    &lt;input id=&#34;search&#34; type=&#34;text&#34;&gt;
+    &lt;br&gt; Results:
+    &lt;ul id=&#34;results&#34;&gt;
+    &lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://halink0803.github.io/vi/post/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://halink0803.github.io/vi/post/hello-world/</guid>
+      <description>&lt;p&gt;This is my first post in this blog, then its name &amp;ldquo;Hello Word&amp;rdquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;	print &#39;Hello World&#39;
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

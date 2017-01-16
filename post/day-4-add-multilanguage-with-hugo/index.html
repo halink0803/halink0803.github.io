@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi-vn">
+<html lang="">
 <head>
 
     <meta charset="utf-8" />
@@ -147,7 +147,28 @@
     </header>
 
     <section class="post-content">
-      
+      <p>Actually, there is not many things to talk about Hugo multilanguages support cos everything was described in details in <a href="https://gohugo.io/content/multilingual/">multilangual documentation</a></p>
+
+<p>Only one thing I want to add here is if you want to detect user region automatically for displaying the right language then you can use <a href="https://ipinfo.io/">ip info service</a>.</p>
+
+<pre><code class="language-javascript">	$.getJSON('http://ipinfo.io', function(data){
+  	console.log(data)
+	})
+</code></pre>
+
+<p>then you will get the response for the ip info which contains the location information:</p>
+
+<pre><code class="language-javascript">	{
+	  &quot;ip&quot;: &quot;111.223.103.130&quot;,
+	  &quot;hostname&quot;: &quot;No Hostname&quot;,
+	  &quot;city&quot;: &quot;Nepal Park&quot;,
+	  &quot;region&quot;: &quot;SINGAPORE&quot;,
+	  &quot;country&quot;: &quot;SG&quot;,
+	  &quot;loc&quot;: &quot;1.3017,103.7881&quot;,
+	  &quot;org&quot;: &quot;AS4657 StarHub Internet Exchange&quot;
+	}
+</code></pre>
+
     </section>
 
 

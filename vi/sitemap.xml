@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://halink0803.github.io/vi/about/</loc>
+    <lastmod>2016-01-16T10:30:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/vi/search/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/vi/</loc>
+    <lastmod>2016-01-16T10:30:08+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/vi/post/hello-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://halink0803.github.io/vi/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

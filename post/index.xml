@@ -5,7 +5,6 @@
     <link>https://halink0803.github.io/post/index.xml</link>
     <description>Recent content in Posts on Ha Link&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>vi-vn</language>
     <lastBuildDate>Sat, 14 Jan 2017 10:54:24 +0200</lastBuildDate>
     <atom:link href="https://halink0803.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +14,28 @@
       <pubDate>Sat, 14 Jan 2017 10:54:24 +0200</pubDate>
       
       <guid>https://halink0803.github.io/post/day-4-add-multilanguage-with-hugo/</guid>
-      <description></description>
+      <description>&lt;p&gt;Actually, there is not many things to talk about Hugo multilanguages support cos everything was described in details in &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34;&gt;multilangual documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Only one thing I want to add here is if you want to detect user region automatically for displaying the right language then you can use &lt;a href=&#34;https://ipinfo.io/&#34;&gt;ip info service&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;	$.getJSON(&#39;http://ipinfo.io&#39;, function(data){
+  	console.log(data)
+	})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then you will get the response for the ip info which contains the location information:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;	{
+	  &amp;quot;ip&amp;quot;: &amp;quot;111.223.103.130&amp;quot;,
+	  &amp;quot;hostname&amp;quot;: &amp;quot;No Hostname&amp;quot;,
+	  &amp;quot;city&amp;quot;: &amp;quot;Nepal Park&amp;quot;,
+	  &amp;quot;region&amp;quot;: &amp;quot;SINGAPORE&amp;quot;,
+	  &amp;quot;country&amp;quot;: &amp;quot;SG&amp;quot;,
+	  &amp;quot;loc&amp;quot;: &amp;quot;1.3017,103.7881&amp;quot;,
+	  &amp;quot;org&amp;quot;: &amp;quot;AS4657 StarHub Internet Exchange&amp;quot;
+	}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>

@@ -5,28 +5,20 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" Day 3 - Hugo search with lunr and gulp &middot;  Ha Link&#39;s Space" />
+  	<meta property="og:title" content=" Tìm kiếm &middot;  Ha Link&#39;s Space" />
   	<meta property="og:site_name" content="Ha Link&#39;s Space" />
-  	<meta property="og:url" content="https://halink0803.github.io/post/day-3-search-lunr-gulp/" />
+  	<meta property="og:url" content="https://halink0803.github.io/vi/search/" />
 
     
   	<meta property="og:type" content="article" />
 
-    <meta property="og:article:published_time" content="2017-01-11T11:58:57&#43;08:00" />
+    <meta property="og:article:published_time" content="2014-07-11T10:54:24&#43;02:00" />
 
-    
-    <meta property="og:article:tag" content="100daysofcode" />
-    
-    <meta property="og:article:tag" content="search" />
-    
-    <meta property="og:article:tag" content="lunr" />
-    
-    <meta property="og:article:tag" content="gulp" />
     
     
 
   <title>
-     Day 3 - Hugo search with lunr and gulp &middot;  Ha Link&#39;s Space
+     Tìm kiếm &middot;  Ha Link&#39;s Space
   </title>
 
     <meta name="description" content="" />
@@ -48,7 +40,7 @@
     
     <meta name="generator" content="Hugo 0.18.1" />
 
-    <link rel="canonical" href="https://halink0803.github.io/post/day-3-search-lunr-gulp/" />
+    <link rel="canonical" href="https://halink0803.github.io/vi/search/" />
 
     
     <script>
@@ -78,22 +70,22 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://halink0803.github.io/">Home</a>
+            	<a href="https://halink0803.github.io/vi/">Home</a>
             </li>
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://halink0803.github.io/about">About</a>
+            	<a href="https://halink0803.github.io/vi/about">About</a>
             </li>
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://halink0803.github.io/tags/100daysofcode">100 days of code</a>
+            	<a href="https://halink0803.github.io/vi/tags/100daysofcode">100 days of code</a>
             </li>
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://halink0803.github.io/search">Search</a>
+            	<a href="https://halink0803.github.io/vi/search">Search</a>
             </li>
         
     </ul>
@@ -110,17 +102,22 @@
 
 
 
+
 <header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+    <nav class="main-nav overlay clearfix">
 
 
-  
-      <a class="blog-logo" href="https://halink0803.github.io/"><img src="https://halink0803.github.io/images/logo.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-  
-  </nav>
+      
+        <a class="blog-logo" href="https://halink0803.github.io/"><img src="https://halink0803.github.io/images/logo.png" alt="Home" /></a>
+      
+      
+          <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+      
+    </nav>
+
+    
+
+
 </header>
 
 
@@ -130,87 +127,48 @@
 
 
 
-  <article class="post post">
-
+  <article class="post ">
     <header class="post-header">
-        <h1 class="post-title">Day 3 - Hugo search with lunr and gulp</h1>
+      <nav class="breadcrumb">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </nav>
+
+
+        <h1 class="post-title">Tìm kiếm</h1>
         <small></small>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2017-01-11T11:58:57&#43;08:00">
-            Jan 11, 2017
-          </time>
-        
-         
-          <span class="post-tag small"><a href="https://halink0803.github.io/tags/100daysofcode/">#100daysofcode</a></span>
-         
-          <span class="post-tag small"><a href="https://halink0803.github.io/tags/search/">#search</a></span>
-         
-          <span class="post-tag small"><a href="https://halink0803.github.io/tags/lunr/">#lunr</a></span>
-         
-          <span class="post-tag small"><a href="https://halink0803.github.io/tags/gulp/">#gulp</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>Today I will apply javascript dynamic search into this blog using lunr.js - a library allow us to do that. This is base on a tutorial from Hugo official documentation - <a href="https://gist.github.com/sebz/efddfc8fdcb6b480f567">hugo + gruntjs + lunrjs = &lt;3 search</a>. However, I will modify it to use Gulp instead of Grunt, simply is that I love Gulp more than Grunt :))</p>
 
-<p>Here is the detail:</p>
 
-<p><strong>Requirement</strong>:<br />
-    - A <a href="https://gohugo.io/">Hugo</a> site<br />
-    - <a href="http://lunrjs.com/">lunrjs</a> - for searching<br />
-    - <a href="http://gulpjs.com/">gulp</a></p>
+<p>Keywords:
+    <input id="search" type="text">
+    <br> Results:
+    <ul id="results">
+    </ul></p>
 
-<pre><code class="language-js">var gulp = require('gulp');
-var fs = require('fs');
-var glob = require('glob');
-var toml = require('toml');
-var S = require('string');
-var file = require('gulp-file');
 
-var path = {
-	'content' : 'site/content/**/*.md'
-};
 
-var processMDFile = function() {
-	var indexFiles = [];
-	glob(path.content, function(err, files){
-		if(err) {
-			console.log(err);
-		} else {
-			files.forEach(function(file) {
-				var content = fs.readFileSync(file, 'utf8');
-				content = content.split('+++');
-				var frontMatter = toml.parse(content[1].trim());
 
-				// you might have different definition of permalink then change this
-				var href = frontMatter.slug;
-				if(frontMatter.type != null &amp;&amp; frontMatter.type == 'post' ){
-					href = '/post/' + href;
-				}
 
-				//build lunr index
-				var index = {
-					title: frontMatter.title,
-	        href: href,
-	        content: S(content[2]).trim().stripTags().stripPunctuation().s
-				}
-				//console.log(index);
-				indexFiles.push(index);
-			});
-		}
-		//console.log(indexFiles);
-		file('PagesIndex.json', JSON.stringify(indexFiles), {src: true}).pipe(gulp.dest('./site/static/js/lunr/'));
-	});
-};
 
-gulp.task(&quot;lunr-index&quot;, processMDFile());
-</code></pre>
 
-<p>The other part on how to use</p>
+
 
     </section>
 
@@ -245,20 +203,20 @@ gulp.task(&quot;lunr-index&quot;, processMDFile());
 
     
 <section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Day%203%20-%20Hugo%20search%20with%20lunr%20and%20gulp&nbsp;-&nbsp;Ha%20Link%27s%20Space&amp;url=https%3a%2f%2fhalink0803.github.io%2fpost%2fday-3-search-lunr-gulp%2f"
+  <h4>Share this page</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=T%c3%acm%20ki%e1%ba%bfm&nbsp;-&nbsp;Ha%20Link%27s%20Space&amp;url=https%3a%2f%2fhalink0803.github.io%2fvi%2fsearch%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhalink0803.github.io%2fpost%2fday-3-search-lunr-gulp%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhalink0803.github.io%2fvi%2fsearch%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fhalink0803.github.io%2fpost%2fday-3-search-lunr-gulp%2f&amp;description=Day%203%20-%20Hugo%20search%20with%20lunr%20and%20gulp"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fhalink0803.github.io%2fvi%2fsearch%2f&amp;description=T%c3%acm%20ki%e1%ba%bfm"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fhalink0803.github.io%2fpost%2fday-3-search-lunr-gulp%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fhalink0803.github.io%2fvi%2fsearch%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -267,20 +225,6 @@ gulp.task(&quot;lunr-index&quot;, processMDFile());
 
 
     
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'halink-space';
-  var disqus_url = 'https:\/\/halink0803.github.io\/post\/day-3-search-lunr-gulp\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
 
   </footer>
 </article>
