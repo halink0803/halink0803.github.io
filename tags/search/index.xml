@@ -72,5 +72,19 @@ gulp.task(&amp;quot;lunr-index&amp;quot;, processMDFile());
 </description>
     </item>
     
+    <item>
+      <title>Search</title>
+      <link>https://halink0803.github.io/search/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>https://halink0803.github.io/search/</guid>
+      <description>&lt;p&gt;Keywords:
+    &lt;input id=&#34;search&#34; type=&#34;text&#34;&gt;
+    &lt;br&gt; Results:
+    &lt;ul id=&#34;results&#34;&gt;
+    &lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
