@@ -1,12 +1,12 @@
 +++
-author = "halink0803"
+author = "halink"
 comments = true
-date = "2016-10-01T10:34:49+07:00"
+date = "2017-01-09T10:02:07+08:00"
 draft = false
 image = ""
-menu = ""
 share = true
 slug = "hello-world"
+tags = ["code"]
 title = "Hello World"
 +++
 

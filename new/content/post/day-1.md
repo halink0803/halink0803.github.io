@@ -4,16 +4,11 @@ comments = true
 date = "2017-01-10T11:58:57+08:00"
 draft = false
 image = ""
-share = false
-menu = "post"
+share = true
 slug = "github-page-with-hugo"
 tags = ["100DaysOfCode", "github", "hugo", "page"]
 title = "Github page with Hugo"
-type = "post"
-
 +++
-
-This is my first post for #100DaysOfCode from [Boot Up 2017 with the #100DaysOfCode Challenge](https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b#.c5xcsjeiy). Maybe I start quite late for the challenge but better late than never.
 
 Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it [halink.space](http://halink.space).
 
