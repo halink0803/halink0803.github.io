@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Ha Link Space</title>
+    <link>http://halink0803.github.io/tags/github/</link>
+    <description>Recent content in Github on Ha Link Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jan 2017 11:58:57 +0800</lastBuildDate>
+    
+	<atom:link href="http://halink0803.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github page with Hugo</title>
+      <link>http://halink0803.github.io/post/github-page-with-hugo/</link>
+      <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
+      
+      <guid>http://halink0803.github.io/post/github-page-with-hugo/</guid>
+      <description>Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it halink.space.
+Since there is another tutorial about this on Hugo official documentation site, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository.</description>
+    </item>
+    
+  </channel>
+</rss>

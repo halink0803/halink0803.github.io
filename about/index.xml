@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Ha Link Space</title>
+    <link>http://halink0803.github.io/about/</link>
+    <description>Recent content in Abouts on Ha Link Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2016 10:30:08 +0700</lastBuildDate>
+    
+	<atom:link href="http://halink0803.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://halink0803.github.io/about/hi/</link>
+      <pubDate>Sat, 01 Oct 2016 10:30:08 +0700</pubDate>
+      
+      <guid>http://halink0803.github.io/about/hi/</guid>
+      <description>This is my blog. This site was generated using Hugo and Casper theme. The domain name was bought from Radix and host on free server from AWS</description>
+    </item>
+    
+  </channel>
+</rss>
