@@ -17,8 +17,8 @@
       <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
       
       <guid>http://halink0803.github.io/post/github-page-with-hugo/</guid>
-      <description>Following with the challenge, besides writing log about it everyday as the rules, I will try to figure out new things and write frequently blog about them. Therefore, I start this blog. I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it halink.space.
-Since there is another tutorial about this on Hugo official documentation site, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository.</description>
+      <description>I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it halink.space.
+Since there is another tutorial about this on Hugo official documentation site, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.</description>
     </item>
     
   </channel>
