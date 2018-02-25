@@ -1,110 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://halink0803.github.io/post/day-4-add-multilanguage-with-hugo/</loc>
-    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/post/day-3-search-lunr-gulp/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/post/github-page-with-hugo/</loc>
+    <loc>http://halink0803.github.io/post/github-page-with-hugo/</loc>
     <lastmod>2017-01-10T11:58:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/post/challenge-accepted/</loc>
+    <loc>http://halink0803.github.io/post/hello-world/</loc>
     <lastmod>2017-01-09T10:02:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/post/hello-world/</loc>
-    <lastmod>2016-10-01T10:34:49+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/about/</loc>
+    <loc>http://halink0803.github.io/about/hi/</loc>
     <lastmod>2016-10-01T10:30:08+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/search/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/100daysofcode/</loc>
-    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
+    <loc>http://halink0803.github.io/about/</loc>
+    <lastmod>2016-10-01T10:30:08+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/tags/challenge/</loc>
+    <loc>http://halink0803.github.io/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://halink0803.github.io/vi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://halink0803.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/tags/code/</loc>
     <lastmod>2017-01-09T10:02:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://halink0803.github.io/tags/code/</loc>
+    <loc>http://halink0803.github.io/tags/github/</loc>
+    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/</loc>
+    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://halink0803.github.io/vi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://halink0803.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/tags/hugo/</loc>
+    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/tags/page/</loc>
+    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/post/</loc>
+    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://halink0803.github.io/tags/</loc>
     <lastmod>2017-01-09T10:02:07+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/github/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/gulp/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/</loc>
-    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/hugo/</loc>
-    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/lunr/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/page/</loc>
-    <lastmod>2017-01-10T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/post/</loc>
-    <lastmod>2017-01-14T10:54:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/search/</loc>
-    <lastmod>2017-01-11T11:58:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://halink0803.github.io/tags/</loc>
-    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://halink0803.github.io/vi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://halink0803.github.io/tags/"
+                />
   </url>
   
 </urlset>
