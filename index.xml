@@ -1,52 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ha Link Space</title>
-    <link>http://halink0803.github.io/</link>
-    <description>Recent content on Ha Link Space</description>
+    <title>Ha Link&#39;s Space</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Ha Link&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Mar 2018 23:38:13 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 17:52:27 +0700</lastBuildDate>
     
-	<atom:link href="http://halink0803.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>4 sự thật mà bạn có thể không biết về an toàn trong dù lượn</title>
-      <link>http://halink0803.github.io/post/paragliding-safety/</link>
-      <pubDate>Thu, 08 Mar 2018 23:38:13 +0700</pubDate>
-      
-      <guid>http://halink0803.github.io/post/paragliding-safety/</guid>
-      <description>Chào các bạn, blog này ban đầu mình lập ra để viết về kĩ thuật (lập trình là chủ yếu), cơ mà rồi mình nhận ra lĩnh vực đó khó quá, để viết được 1 bài chất lượng cần nhiều thời gian và công sức, mà mình thì muốn viết mỗi ngày, nên mình quyết định viết về nhiều thứ hơn là mỗi lập trình. Mình quyết định sẽ viết về cuộc sống của mình, về sở thích của mình bao gồm dù lượn (cái này mình đã thích từ lâu nhưng giờ mới chuẩn bị bước chân vào).</description>
-    </item>
-    
-    <item>
-      <title>Github page with Hugo</title>
-      <link>http://halink0803.github.io/post/github-page-with-hugo/</link>
-      <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
-      
-      <guid>http://halink0803.github.io/post/github-page-with-hugo/</guid>
-      <description>I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it halink.space.
-Since there is another tutorial about this on Hugo official documentation site, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://halink0803.github.io/post/hello-world/</link>
-      <pubDate>Mon, 09 Jan 2017 10:02:07 +0800</pubDate>
-      
-      <guid>http://halink0803.github.io/post/hello-world/</guid>
-      <description>This is my first post in this blog, then its name &amp;ldquo;Hello Word&amp;rdquo;.
-print &#39;Hello World&#39;  </description>
-    </item>
     
     <item>
       <title>About</title>
-      <link>http://halink0803.github.io/about/hi/</link>
-      <pubDate>Sat, 01 Oct 2016 10:30:08 +0700</pubDate>
+      <link>http://example.org/post/about/</link>
+      <pubDate>Wed, 24 Oct 2018 17:52:27 +0700</pubDate>
       
-      <guid>http://halink0803.github.io/about/hi/</guid>
-      <description>This is my blog. This site was generated using Hugo and Casper theme. The domain name was bought from Radix and host on free server from AWS</description>
+      <guid>http://example.org/post/about/</guid>
+      <description>Xin chào,
+Rất vui khi thấy bạn ở đây.
+Đây là blog của Hà Link (là mình). Và dưới đây là câu chuyện về việc hình thành cái blog này.
+Một ngày đẹp trời mình đã nghĩ mình được giao task kiếm một công cụ
+// let try some coding func main() { fmt.Print(&amp;quot;Hello World&amp;quot;) }  </description>
     </item>
     
   </channel>

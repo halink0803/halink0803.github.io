@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Ha Link Space</title>
-    <link>http://halink0803.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Ha Link Space</description>
+    <title>Hugo on Ha Link&#39;s Space</title>
+    <link>http://example.org/tags/hugo/</link>
+    <description>Recent content in Hugo on Ha Link&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2017 11:58:57 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 17:52:27 +0700</lastBuildDate>
     
-	<atom:link href="http://halink0803.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Github page with Hugo</title>
-      <link>http://halink0803.github.io/post/github-page-with-hugo/</link>
-      <pubDate>Tue, 10 Jan 2017 11:58:57 +0800</pubDate>
+      <title>About</title>
+      <link>http://example.org/post/about/</link>
+      <pubDate>Wed, 24 Oct 2018 17:52:27 +0700</pubDate>
       
-      <guid>http://halink0803.github.io/post/github-page-with-hugo/</guid>
-      <description>I used to build my github page with jekyll, but one day, when randomly surfing the internet, I unexpectedly met Hugo and I decided to build a new site with it halink.space.
-Since there is another tutorial about this on Hugo official documentation site, it is a little bit complicated and outdated cos recently github alows github page to generate site from &amp;ldquo;docs&amp;rdquo; folder in the git repository. Then, the key factor for using hugo with github page here is only the config.</description>
+      <guid>http://example.org/post/about/</guid>
+      <description>Xin chào,
+Rất vui khi thấy bạn ở đây.
+Đây là blog của Hà Link (là mình). Và dưới đây là câu chuyện về việc hình thành cái blog này.
+Một ngày đẹp trời mình đã nghĩ mình được giao task kiếm một công cụ
+// let try some coding func main() { fmt.Print(&amp;quot;Hello World&amp;quot;) }  </description>
     </item>
     
   </channel>

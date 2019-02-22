@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Ha Link&#39;s Space</title>
+    <link>http://example.org/tags/introduction/</link>
+    <description>Recent content in Introduction on Ha Link&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Oct 2018 17:52:27 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/post/about/</link>
+      <pubDate>Wed, 24 Oct 2018 17:52:27 +0700</pubDate>
+      
+      <guid>http://example.org/post/about/</guid>
+      <description>Xin chào,
+Rất vui khi thấy bạn ở đây.
+Đây là blog của Hà Link (là mình). Và dưới đây là câu chuyện về việc hình thành cái blog này.
+Một ngày đẹp trời mình đã nghĩ mình được giao task kiếm một công cụ
+// let try some coding func main() { fmt.Print(&amp;quot;Hello World&amp;quot;) }  </description>
+    </item>
+    
+  </channel>
+</rss>
