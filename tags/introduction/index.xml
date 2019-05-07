@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Ha Link&#39;s Space</title>
-    <link>http://example.org/tags/introduction/</link>
-    <description>Recent content in Introduction on Ha Link&#39;s Space</description>
+    <title>introduction on Ha Link&#39;s Space</title>
+    <link>https://halink0803.github.io/tags/introduction/</link>
+    <description>Recent content in introduction on Ha Link&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Oct 2018 17:52:27 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://halink0803.github.io/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://example.org/post/about/</link>
+      <link>https://halink0803.github.io/post/about/</link>
       <pubDate>Wed, 24 Oct 2018 17:52:27 +0700</pubDate>
       
-      <guid>http://example.org/post/about/</guid>
+      <guid>https://halink0803.github.io/post/about/</guid>
       <description>Xin chào,
 Rất vui khi thấy bạn ở đây.
 Đây là blog của Hà Link (là mình). Và dưới đây là câu chuyện về việc hình thành cái blog này.
