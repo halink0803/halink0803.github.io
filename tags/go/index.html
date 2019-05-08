@@ -119,6 +119,20 @@
     
 
     
+     
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('\/js\/service-worker.js')
+          .then((reg) => {
+            console.log('Service worker registered.', reg);
+          }).catch(function(err) {
+            console.log('Service worker register failed.', err);
+          });
+        });
+      }
+    </script>
+    
 </head>
 <body class="nav-closed">
 
